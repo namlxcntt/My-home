@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Tìm Kiếm"
+        android:fontFamily="@font/nabila"
+        android:textColor="@color/color_text"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_search"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_search"
+        android:drawableStart="@drawable/ic_search"
+        android:drawableLeft="@drawable/ic_search"
+        android:hint="  Tìm Tên Quận, Đường "
+        android:textSize="14sp" />
+
+    <TextView
+
+        android:id="@+id/tv_timquanhday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_place"
+        android:textColor="@color/color_text"
+        android:text="  Tìm quanh Đây" />
+
+
+    <TextView
+
+        android:id="@+id/tv_viewMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_googlemap_foreground"
+        android:gravity="center"
+        android:text="Xem Bản Đồ "
+        android:textColor="@color/color_text" />
+
+    <TextView
+
+        android:id="@+id/tv_lichsusearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Lịch Sử Tìm Kiếm"
+        android:textColor="@color/color_text"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/lv_history"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

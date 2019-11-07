@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_tv_search">#F0ECEC</color>
+    <color name="color_item">#363434</color>
+    <color name="color_tablayout">#B9B3B3</color>
+    <color name="color_buttonsearch">#3F3C3C</color>
+    <color name="color_Edittext">#C4BEBE</color>
+    <color name="color_background">#C5C0C0</color>
+    <color name="color_text" >#2C2B2B</color>
+    <color name="color_buttonLogin">#BBB7B7</color>
+    <color name="color_edt">#0E0D0D</color>
+</resources>

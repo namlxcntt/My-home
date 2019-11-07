@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_avarta"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="center" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/placeholder"
+        android:drawableLeft="@drawable/placeholder"
+        android:gravity="start"
+        android:text="Địa chỉ "
+        android:maxLines="2"
+        android:textColor="@color/color_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/homeaddress"
+        android:drawableLeft="@drawable/homeaddress"
+        android:gravity="start"
+        android:text="Place"
+        android:textColor="@color/color_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/dollar"
+        android:drawableLeft="@drawable/dollar"
+        android:gravity="start"
+        android:text="Price"
+        android:textColor="@color/color_text"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

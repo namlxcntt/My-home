@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Myhome@</string>
+    <string-array name="thanhpho">
+        <item>Hà nội</item>
+        <item>Thành Phố Hồ chí Minh</item>
+        <item>Đà Nẵng</item>
+        <item>Sapa</item>
+
+
+    </string-array>
+    <string name="google_map_api_KEY">AIzaSyARQ78yaNEJH12aJLM1Y-112WY12p95ZOEGI</string>
+
+    <string name="facebook_app_id">1006802762988725</string>
+    <string name="fb_login_protocol_scheme">fb1006802762988725</string>
+
+</resources>

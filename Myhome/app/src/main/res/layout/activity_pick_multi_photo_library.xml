@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/color_background"
+            app:title="Thư Viện Ảnh"
+            android:id="@+id/toolbar"
+
+            app:titleTextColor="#ff01" />
+
+        <ImageView
+            android:id="@+id/mDone"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="gone"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp"
+            android:onClick="viewDone"
+            android:src="@drawable/ic_done_white_32dp" />
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyc_PickImage"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:background="#43475F"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:background="#111">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã chọn"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/8"
+            android:id="@+id/mCountImage"
+            android:layout_gravity="center_vertical|right"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginRight="20dp"/>
+    </FrameLayout>
+</FrameLayout>

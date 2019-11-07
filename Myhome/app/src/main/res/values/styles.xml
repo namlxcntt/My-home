@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:strokeColor">#E91E63</item>
+        <item name="android:strokeWidth">2</item>
+        <item name="android:buttonCornerRadius">10dp</item>
+
+
+    </style>
+
+     <style name="FacebookLoginButton">
+         <item name="android:buttonCornerRadius">10dp</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@color/color_buttonLogin</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:drawableStart">@drawable/facebookicon</item>
+        <item name="android:drawableLeft">@drawable/facebookicon</item>
+        <item name="android:paddingStart" tools:targetApi="jelly_bean_mr1">20dp</item>
+        <item name="android:paddingLeft" tools:targetApi="jelly_bean_mr1">20dp</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>
