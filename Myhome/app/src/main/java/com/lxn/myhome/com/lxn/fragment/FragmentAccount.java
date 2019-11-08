@@ -25,13 +25,9 @@ public class FragmentAccount extends Fragment {
     private Button btn_dangxuat;
     private TextView tv_User;
     private TextView tv_Email;
-    private TextView tv_SDT;
+    private TextView tv_SDT,tv_userchoose;
     private  View view;
     private Button btn_detail;
-
-
-
-
 
     public FragmentAccount() {
     }
@@ -55,6 +51,12 @@ public class FragmentAccount extends Fragment {
         tv_User.setText(account.getUsername());
         tv_Email.setText(account.getEmail());
         tv_SDT.setText(account.getSdt());
+        if (account.isUser()== true){
+            tv_userchoose.setText("Thuê phòng ");
+        }
+        else {
+            tv_userchoose.setText("Cho thuê");
+        }
 
         btn_dangxuat.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -99,6 +101,7 @@ public class FragmentAccount extends Fragment {
         tv_SDT = view.findViewById(R.id.tv_SDT);
         btn_dangxuat=view.findViewById(R.id.btn_dangxuat);
         btn_detail = view.findViewById(R.id.btn_detail);
+        tv_userchoose=view.findViewById(R.id.tv_userchoose);
 
 
     }

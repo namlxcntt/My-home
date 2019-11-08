@@ -3,7 +3,7 @@
     android:layout_width="200dp"
     android:layout_height="300dp"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="05dp">
 
     <ImageView
         android:id="@+id/img_avarta"
@@ -12,24 +12,24 @@
         android:scaleType="center" />
 
     <TextView
-        android:layout_marginTop="10dp"
         android:id="@+id/tv_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:drawableStart="@drawable/placeholder"
         android:drawableLeft="@drawable/placeholder"
         android:gravity="start"
-        android:text="Địa chỉ "
         android:maxLines="2"
+        android:text="Địa chỉ "
         android:textColor="@color/color_text"
         android:textSize="15sp"
         android:textStyle="bold" />
 
     <TextView
-        android:layout_marginTop="10dp"
         android:id="@+id/tv_place"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:drawableStart="@drawable/homeaddress"
         android:drawableLeft="@drawable/homeaddress"
         android:gravity="start"
@@ -39,16 +39,19 @@
         android:textStyle="bold" />
 
     <TextView
-        android:layout_marginTop="10dp"
         android:id="@+id/tv_price"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:drawableStart="@drawable/dollar"
         android:drawableLeft="@drawable/dollar"
         android:gravity="start"
+        android:paddingEnd="50dp"
         android:text="Price"
+        android:drawableEnd="@drawable/vnd"
         android:textColor="@color/color_text"
         android:textSize="15sp"
         android:textStyle="bold" />
+
 
 </LinearLayout>

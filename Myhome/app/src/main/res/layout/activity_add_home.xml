@@ -162,8 +162,8 @@
     <EditText
         android:id="@+id/et_giatien"
         android:layout_width="120dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:background="@color/color_Edittext"
         android:ems="10"
         android:inputType="number"
@@ -187,9 +187,9 @@
 
     <EditText
         android:id="@+id/et_dientich"
-        android:layout_width="60dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:background="@color/color_Edittext"
         android:ems="10"
         android:inputType="number"

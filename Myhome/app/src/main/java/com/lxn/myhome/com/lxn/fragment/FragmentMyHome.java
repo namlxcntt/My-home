@@ -75,7 +75,6 @@ public class FragmentMyHome extends Fragment {
                     @Override
                     public void onChildMoved(DataSnapshot dataSnapshot, String s) {
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                     }

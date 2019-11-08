@@ -42,7 +42,7 @@ public class MyhomeAdapter extends RecyclerView.Adapter<MyhomeAdapter.ViewHolder
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
                 holder.tv_name.setText(listHome.get(position).getDiachi());
-                holder.tv_price.setText("Giá : "+listHome.get(position).getGiatien()+" VND");
+                holder.tv_price.setText("Giá : "+listHome.get(position).getGiatien());
                 holder.tv_place.setText("TP  : "+listHome.get(position).getThanhpho());
 
                 Glide.with(mContext)

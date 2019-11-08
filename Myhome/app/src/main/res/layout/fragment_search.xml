@@ -31,24 +31,29 @@
         android:hint="  Tìm Tên Quận, Đường "
         android:textSize="14sp" />
 
+
     <TextView
 
         android:id="@+id/tv_timquanhday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:drawableLeft="@drawable/ic_place"
-        android:textColor="@color/color_text"
-        android:text="  Tìm quanh Đây" />
-
+        android:padding="02dp"
+        android:text="  Tìm quanh Đây"
+        android:textColor="@color/color_text" />
 
     <TextView
 
         android:id="@+id/tv_viewMap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:drawableLeft="@drawable/ic_googlemap_foreground"
+            android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:drawableLeft="@drawable/placeholder"
+
+        android:padding="02dp"
         android:gravity="center"
         android:text="Xem Bản Đồ "
         android:textColor="@color/color_text" />
@@ -59,6 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:text="Lịch Sử Tìm Kiếm"
         android:textColor="@color/color_text"

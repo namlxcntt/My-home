@@ -103,7 +103,7 @@ public class FragmentSearch extends Fragment {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int position, long l) {
 
-                Log.d("qqqqqqqqqqqqqqqqqq",position + "");
+                Log.d("namlxcntt",position + "");
 
                 FirebaseDatabase.getInstance().getReference().child("search").child(historykey.get(position)).removeValue();
                 history.remove(position);

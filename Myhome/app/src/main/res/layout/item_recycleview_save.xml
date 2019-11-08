@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="50dp">
+    android:padding="20dp">
 
     <ImageView
         android:id="@+id/img_avarta"
@@ -48,6 +48,8 @@
         android:layout_marginLeft="10dp"
         android:drawableStart="@drawable/dollar"
         android:drawableLeft="@drawable/dollar"
+        android:drawableEnd="@drawable/vnd"
+        android:paddingEnd="30dp"
         android:gravity="start"
         android:text="Price"
         android:textColor="@color/color_text"

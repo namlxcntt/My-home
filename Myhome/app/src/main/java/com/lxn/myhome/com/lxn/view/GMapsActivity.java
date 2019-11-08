@@ -52,7 +52,7 @@ public class GMapsActivity extends AppCompatActivity implements OnMapReadyCallba
                     for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                         Home home = snapshot.getValue(Home.class);
 
-                        googleMap.addMarker(new MarkerOptions().position(new LatLng(home.getLatitude(), home.getLongitude())).title(home.getDiachi()).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_gps)));
+                        googleMap.addMarker(new MarkerOptions().position(new LatLng(home.getLatitude(), home.getLongitude())).title(home.getDiachi()).icon(BitmapDescriptorFactory.fromResource(R.drawable.placeholder)));
                     }
                 }
             }
